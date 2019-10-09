@@ -1,0 +1,14 @@
+<html>
+   <body>
+      <form action = "http://localhost:5000/authenticate" method = "POST">
+         <p>Name <input type = "text" name = "Name" /></p>
+          <p>Password<input type="text" name = "Password"> </p>
+         <p><input type = "submit" value = "Login" /></p>
+      </form>
+
+      <form action = "http://localhost:5000/signup" method = "POST">
+         <p><input type = "submit" value = "Signup" /></p>
+      </form>
+      <p>{{ error }}</p>
+   </body>
+</html>
